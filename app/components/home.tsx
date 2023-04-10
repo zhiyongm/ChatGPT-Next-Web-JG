@@ -183,8 +183,7 @@ function _Home() {
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
-        </div>
-<script>
+          <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -193,6 +192,8 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+        </div>
+
 
         <div
           className={styles["sidebar-body"]}
