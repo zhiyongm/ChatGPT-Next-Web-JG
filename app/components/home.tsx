@@ -167,7 +167,7 @@ function _Home() {
   return (
     
  <script type="text/javascript">
-{`
+{
   var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -175,7 +175,7 @@ function _Home() {
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-`}
+}
 </script>
 
 
