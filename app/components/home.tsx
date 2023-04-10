@@ -165,6 +165,15 @@ function _Home() {
   }
 
   return (
+    
+    {var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e26881914caf042f0274e79a4f21fd5a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();}
+
     <div
       className={`${
         config.tightBorder && !isMobileScreen()
