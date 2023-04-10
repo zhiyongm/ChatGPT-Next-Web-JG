@@ -121,7 +121,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>JG-ChatBot</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            为什么不问问神奇的晶格呢？
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
