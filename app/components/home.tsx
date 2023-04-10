@@ -176,7 +176,8 @@ var _hmt = _hmt || [];
   return (
     
     
- <script>{bdjs}</script>
+<script dangerouslySetInnerHTML={{ __html: bdjs }}></script>
+
 
 
     
