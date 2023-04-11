@@ -194,7 +194,6 @@ function _Home() {
       <div
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
-       // <script dangerouslySetInnerHTML={getAnalyticsTag()}/>
 
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>JG-ChatBot</div>
