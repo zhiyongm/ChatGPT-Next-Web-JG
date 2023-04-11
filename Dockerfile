@@ -7,7 +7,7 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app 
 
 COPY package.json yarn.lock ./
-
+ 
 RUN yarn config set registry 'https://registry.npm.taobao.org'
 RUN yarn install
 
