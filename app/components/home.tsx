@@ -191,9 +191,9 @@ function _Home() {
           : styles.container
       }`}
     >
-       
+        <Head>
       <script dangerouslySetInnerHTML={getAnalyticsTag()}/>
-
+ </Head>
       <div
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
